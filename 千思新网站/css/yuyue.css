@@ -1,0 +1,35 @@
+/*内容区*/
+html{font-family:"微软雅黑","Microsoft YaHei","宋体"}
+.al-navigation {
+    width: 1200px;
+    height: 67px;
+    margin: 0 auto;
+    line-height: 67px;
+    font-size: 17px;
+    text-align: left;
+}
+.wyyu-content{width:100%;background: url(../images/yu-1.jpg)no-repeat 640px 0;margin-bottom: 60px;padding: 20px 0;height: 600px}
+.center-wyyu{width: 1200px;margin: 0 auto;height: 550px;background-color: #f6f6f6;padding-top: 50px }
+.center-wyyu .left-wyyu{float: left;width:50%;padding-top: 50px;height: 450px}
+.center-wyyu .right-wyyu{float: left;width:50%;height: 500px}
+.center-wyyu .left-wyyu .left-pa{padding-left: 70px;height: 100%}
+.left-wyyu h2{font-size: 42px;text-align: left;color: #000;height: 60px;line-height:60px;}
+.left-wyyu p{text-align: left;font-size: 18px;height: 40px;line-height: 40px;font-weight: 600}
+.left-wyyu .p{margin-top: 20px}
+.left-pa .tel{position: relative;padding-left: 15px;margin-top: 40px}
+.left-pa .tel img{height: 64px;line-height: 64px;position: absolute;}
+.left-wyyu .tel a{font-size: 18px;background:#007aff;color: #fff;padding:10px 18px 10px 72px;display: inline-block;margin: 10px 0;border-radius: 25px;font-weight: 600}
+.right-wyyu h2{font-size: 42px;background: url(../images/yu-3.png)no-repeat 50px center;padding-left: 94px;height: 58px;line-height: 58px}
+.right-wyyu p{font-size:24px;text-align: center; height: 42px;line-height: 42px}
+.right-wyyu form{padding-left: 50px;font-size: 24px}
+.right-wyyu form input,.right-wyyu form select{height: 50px;line-height: 50px;font-size: 18px;color: #666;width: 380px;margin-left: 20px;border: none;margin-top: 20px;text-indent: 1em;color: #000;border: 1px solid #b3b3b3}
+.right-wyyu form [type="submit"]{margin-left:62px;text-indent: 0;background: #007aff;color: #fff;font-size: 24px;font-weight: normal;border: none;height: 60px;line-height: 60px;}
+.right-wyyu form select{color: #999999;padding:0 15px;width:360px;margin:0;text-indent: 0 ;border:none;background: url(../images/wuyu-xiala.png)no-repeat right center;-webkit-appearance: none;appearance: none;}
+.right-wyyu form .span{padding:0 10px;margin-left: 20px;display: inline-block;height: 50px;margin-top: 20px;background: #fff;border: 1px solid #b3b3b3}
+.wyyu-p{text-align: center;height: 50px;line-height: 50px;color: #999999;width: 100%}
+.wyyu-p a{color: #999999;padding:10px 0px 10px 40px;}
+.wyyu-p .wuyu-info{background:url(../images/wuyu-a.png)no-repeat 0 center;}
+.wyyu-p .wyyu-tel{background:url(../images/wuyu-a.png)no-repeat 0 center;background-position:-170px center;}
+.wyyu-p .wuyu-profession{background:url(../images/wuyu-a.png)no-repeat 0 center;background-position:-346px center;}
+.wyyu-p .wuyu-visit{background:url(../images/wuyu-a.png)no-repeat 0 center;background-position:-554px center;}
+.center-wyyu .left-wyyu:after,.center-wyyu .right-wyyu:after,{display:block;clear:both;content:"";visibility:hidden;height:0} 

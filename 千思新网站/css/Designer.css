@@ -1,0 +1,387 @@
+*{
+	color: #333333;
+}
+.D-banner{
+	width: 100%;
+	height: 420px;
+	min-width: 1200px;
+	background: url(../images/images/beiji_02.jpg)no-repeat center;
+	background-size:cover ;
+	position: relative;
+	text-align: center;
+}
+.al-navigation{
+	width: 1200px;
+	height:67px;
+	margin: 0 auto;
+	line-height: 67px;
+	font-size: 17px;
+	text-align: left;
+}
+.al-navigation a{
+	color: #000000;
+}
+.al-navigation a:hover{
+	color: #D4BA73;
+}
+.D-banner .img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background: url(../images/朱蓉.jpg)no-repeat top;
+	background-size:cover ;
+	position: absolute;
+	left: 50%;
+	top: 67px;
+	-webkit-transform: translate(-50%,0);
+	        transform: translate(-50%,0);
+	        overflow: hidden;	        
+}
+.D-banner .img img{
+	width: 100%;
+}
+.D-banner h6{
+	font-size: 20px;
+	margin-top: 160px;
+	padding: 5px 0;
+}
+.D-banner p{
+	padding: 8px 0;
+}
+.D-Options{
+	width: 1200px;
+	height: 89px;
+	margin: 20px auto;
+}
+.D-Options ul{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.D-Options ul li{
+	width: 400px;
+	height: 89px;
+	font-size: 24px;
+	border: 1px solid #D5D5D5;
+	text-align: center;
+	line-height: 87px;
+}
+.D-Options ul li:hover{
+	color: #007AFF;
+	border-bottom: 2px solid #007AFF;
+}
+.al-content{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto 37px;
+	position: relative;
+}
+
+.D-Cases{
+	width: 919px;
+	height: auto;
+	border: 1px solid #D5D5D5;
+	margin-right: 20px;
+}
+.D-Cases h6,.D-data h6{
+	font-size: 27px;
+	margin: 26px 0 10px 10px;
+}
+.D-data{
+	width: 919px;
+	height: auto;
+	border: 1px solid #D5D5D5;
+	margin-right: 20px;
+}
+.anli-libiao{
+	width: 892px;
+	margin: 0 auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	border-top:2px solid #D5D5D5  ;
+	padding-top: 20px;
+}
+.resume-sheji{
+	width: 280px;
+	height: 401px;
+	margin: 0 auto 10px;
+	position: relative;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+.resume-sheji:hover{
+	-webkit-box-shadow: 0 0 8px 1px #676360;
+	        box-shadow: 0 0 8px 1px #676360;
+}
+.resume-sheji:hover .one img{
+	-webkit-transform: scale(1.3);
+	        transform: scale(1.3);
+}
+.resume-sheji .one{
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+.resume-sheji .one img{
+	width: 100%;
+	height: 100%;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+.resume-sheji .two{
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	top: 65%;
+	left: 70%;
+	background: url(../images/朱蓉.jpg)no-repeat top;
+	background-size:cover ;
+	-webkit-box-shadow: 0 0 4px 1px #333333;
+	        box-shadow: 0 0 4px 1px #333333;
+	        overflow: hidden;
+}
+.resume-sheji .two img{
+	width: 100%;
+}
+.resume-sheji  .three{
+	width: 100%;
+	height: 100px;
+	background: #EBEBEB;
+	font-size: 12px;
+}
+.resume-sheji  .three p{
+	padding: 10px;
+	padding-left: 15px;
+}
+.D-Quotation{
+	width: 259px;
+	height: auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.D-Quotation .resume-2{
+	width: 100%;
+	height: 851px;
+	border: 1px solid #D0D0D0;
+}
+.D-Quotation .resume-2 .al-form{
+	width: 100%;
+	height: 400px;
+	text-align: center;
+	border-bottom: 1px solid #D0D0D0;
+}
+.D-Quotation .resume-2 .al-form h6{
+	font-size: 20px;
+	color: #2E89FF;
+	margin-top: 30px;
+}
+.D-Quotation .resume-2 .al-form p{
+	padding: 8px;
+	font-size: 12px;
+}
+.D-Quotation .resume-2 .al-form form{
+	width: 230px;
+	height: 329px;
+	font-size: 0;
+	margin: 0 auto;
+}
+.D-Quotation .resume-2 .al-form form input,.D-Quotation .resume-2 .al-form select{
+	width: 100%;
+	height: 49px;
+	border: 1px solid #D0D0D0;
+	border-radius: 5px;
+	margin-bottom:8px ;
+	text-indent: 20px;
+	font-size: 15px;
+	color: #757575;
+}
+.D-Quotation .resume-2 .al-form form .submit{
+	color: white;border: none;background: #007AFF;
+	font-size: 20px;
+	text-indent: 0;
+}
+.D-Quotation .resume-2 .al-form form p{
+	font-size: 12px;
+	padding-top: 15px;
+}
+.D-Quotation .resume-2 .lunbo{
+	width: 100%;
+	height: 408px;
+	text-align: center;
+}
+.D-Quotation .resume-2 .lunbo h6{
+	font-size: 20px;
+	color: #2E89FF;
+	padding: 20px 0;
+}
+.resume-2 .lunbo .lunbo-hid{
+	width: 230px;
+	height: 334px;
+	border-top:1px solid  #D0D0D0;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+}
+.lunbo .lunbo-hid .ul-de{
+	position: absolute;
+	top: 0;
+}
+.resume-2 .lunbo .lunbo-hid li{
+	font-size: 13px;
+	padding-top: 18px;
+}
+/*分页区*/
+.site-Pag{
+	width: 100%;
+	height: auto;
+	margin:30px auto 30px;
+}
+.site-Pag ul{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.site-Pag ul li{
+	border: 1px solid #E2E2E2;
+	font-size: 14px;
+	padding: 10px 15px;
+	margin: 0 10px;
+	cursor: pointer;
+}
+.site-Pag ul li:hover{
+	color: white;
+	background: #007AFF;
+}
+.site-Pag .color{
+	color: white;
+	background: #007AFF;
+}
+
+.D-recommend{
+	width: 920px;
+	height: 520px;
+	border: 1px solid #D5D5D5;
+	margin-top: 30px;
+}
+.D-recommend h6{
+	font-size: 27px;
+	margin: 26px 0 10px 10px;
+}
+.recommend-0{
+	width: 280px;
+	height: 400px;
+	border-radius: 3px;
+	overflow: hidden;
+}
+.recommend-0:hover{
+	-webkit-box-shadow: 0 0 8px 1px #676360;
+	        box-shadow: 0 0 8px 1px #676360;
+}
+.recommend-0 .img{
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+}
+.recommend-0 .img a{
+	display: block;
+	width: 240px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background: #007AFF;
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+	font-size: 20px;
+	color: white;
+	border-radius: 8px;
+}
+.recommend-0 .img img{
+	width: 100%;
+}
+.recommend-0 .text{
+	width: 100%;
+	height: 100px;
+	background: #EBEBEB;
+}
+.recommend-0 .text p{
+	text-align: center;
+	font-size: 20px;
+	padding: 12px 0;
+}
+.recommend-0 .text span{
+	padding:0 24px;
+	font-size: 13px;
+}
+.anli-libiao-two{
+	width: 892px;
+	height: auto;
+	margin: 0 auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	border-top:2px solid #D5D5D5  ;
+	padding-top: 20px;
+}
+
+/*设计师简历*/
+.data-div{
+	width:893px ;
+	height: auto;
+	border-top: 1px solid #D5D5D5 ;
+	margin:0 auto;
+	padding: 20px 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.data-div .img{
+	width: 338px;
+	height: 338px;
+	background: url(../images/朱蓉.jpg)no-repeat top;
+	background-size:cover ;
+}
+.data-div .text-1{
+	margin-right: 10px;
+	width: 510px;
+	height: auto;
+}
+.data-div .text-2{
+	border-top:1px solid #D5D5D5 ;
+}
+.data-div .text-2 span{
+	font-size: 15px;
+	padding: 2px 0;
+	line-height: 25px;
+}
+.data-div .text-1 h5{
+	font-size: 28px;
+}
+.data-div .text-1 p{
+	font-size: 17px;
+	padding: 12px 0;
+}

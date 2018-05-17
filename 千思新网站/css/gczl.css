@@ -1,0 +1,22 @@
+body,html{width: 100%;margin: 0 auto;}
+li{float: left;}
+img{  }
+
+.banner,.mason,.carpentry{width: 1920px;margin: 0 auto;}
+@media only screen and (min-width: 1280px) and (max-width: 1920px) {
+	.banner,.mason,.carpentry{width: 100%;margin: 0 auto;}
+}
+.banner{height: 600px;}
+.mason{height: 860px;}
+.mason_h,.carpentry_h{height: 168px;line-height: 168px;font-size:48px; font-weight: normal;text-align: center;background:url(../images/mason_h.png)no-repeat center 120px;}
+.mason_bj{height:692px;background: url(../images/mason.jpg)no-repeat;background-size: 100% auto;}
+.mason_lb{width: 1200px;margin: 0 auto;padding-top: 60px; }
+.mason_lb ul li,.carpentry_lb ul li{ position: relative;margin-right: 2px;height: 285px;margin-bottom: 2px; }
+.mason_lb ul li .mason-poab,.carpentry_lb ul li .mason-poab{position: absolute;top:0;left:0;width: 100%;height: 100%;background:#0f72da;opacity: 0;visibility: hidden;-webkit-transition: all .5s linear;transition: all .5s linear}
+.mason_lb ul li:nth-child(3n),.carpentry_lb ul li:nth-child(3n){margin-right: 0;}
+.carpentry_h{background:url(../images/carpentry_h.png)no-repeat center 120px;}
+.carpentry_bj{height:980px;background: url(../images/carpentry.jpg)no-repeat;}
+.carpentry_lb{width: 1200px;margin: 0 auto;padding-top: 60px;}
+.mason_lb ul li .mason-poab p,.carpentry_lb ul li .mason-poab p{padding: 100px 30px 0;font-size: 18px;line-height: 30px;color: #fff;}
+.mason_lb ul li:hover .mason-poab{opacity: 0.8;visibility: visible;}
+.carpentry_lb ul li:hover .mason-poab{opacity: 0.8;visibility: visible;}

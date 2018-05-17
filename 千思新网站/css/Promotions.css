@@ -1,0 +1,254 @@
+/*导航链接*/
+.al-navigation{
+	width: 1200px;
+	height:67px;
+	margin: 0 auto;
+	line-height: 67px;
+	font-size: 17px;
+	text-align: left;
+}
+.al-navigation a{
+	color: #000000;
+}
+.al-navigation a:hover{
+	color: #D4BA73;
+}
+
+/*往期活动*/
+.Past-activities{
+	width: 1200px;
+	height: auto;
+	margin: 10px auto 50px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.activity-lian,.activity-nei{
+	color: #333333;
+}
+/*left*/
+.activity-lian{
+	width: 330px;
+	height: 300px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.lj-one{
+	width: 330px;
+	height: 59px;
+	border: 1px solid #CFCFCF;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.lj-one .lj-img{
+	width: 40px;
+	height: 40px;
+	background: url(../images/images/activity_06.png)no-repeat;
+}
+.lj-one span{
+	font-size: 25px;
+	display: block;
+	margin-left: -50px;
+	color: #333333;
+}
+.lj-one .lj-arrow{
+	width: 22px;
+	height: 40px;
+	background: url(../images/images/activity_8_06.png) no-repeat;
+	background-position-y: 7px;
+}
+/*right*/
+.activity-nei{
+	width: 850px;
+	height: auto;
+}
+.nr-content{
+	width: 100%;
+	height: 223px;
+	border-bottom: 1px solid #D7D7D7;
+	margin-bottom: 20px;
+}
+.nr-content .img,.nr-content p{
+	float: left;
+}
+.nr-content .img{
+	width: 260px;
+	height: 204px;
+	background: url(../images/images/activity_03.png)no-repeat;
+	background-size:cover ;
+	-webkit-box-shadow: 0 0 6px 1px #D7D7D7;
+	        box-shadow: 0 0 6px 1px #D7D7D7;
+}
+.nr-content h6{
+	font-size: 17px;
+	padding: 14px;
+	display: block;
+	margin-left: 258px;
+	
+}
+.nr-content p{
+	width: 500px;
+	font-size: 12px;
+	color: #666666;
+	padding: 7px 20px;
+
+ 
+}
+.nr-content a{
+	display: block;
+	width: 160px;
+	height: 36px;
+	border-radius: 6px;
+	color: white;
+	float: right;
+	line-height: 36px;
+	text-align: center;
+	margin-top: 5px;
+}
+.nr-content .a1{
+	background: #EF2C3A;
+}
+.nr-content .a2{
+	background: #007AFF;margin-right: 38px;
+}
+
+/*优秀案例推荐*/
+.activity-nei-anli{
+	width: 850px;
+	height: auto;
+}
+.activity-nei-anli .nei-anli-1{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+}
+.activity-nei-anli .nei-anli-1 li{
+	width: 261px;
+	height: 201px;
+	background: url(../images/images/alxq-2.jpg)no-repeat center;
+	background-size: cover;
+	display: block!important;
+	margin-bottom: 33px;
+	position: relative;
+	overflow: hidden;
+}
+.activity-nei-anli .nei-anli-1 li:hover{
+	-webkit-box-shadow: 0 0 10px 1px #A2A2A2;
+	        box-shadow: 0 0 10px 1px #A2A2A2;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+.activity-nei-anli .nei-anli-1 li:hover span{
+	bottom: 0;
+}
+.activity-nei-anli .nei-anli-1 li span{
+	display: block;
+	width: 100%;
+	height: 39px;
+	background: rgba(0,122,255,.7);
+	color: white;
+	line-height: 39px;
+	text-align: center;
+	font-size: 17px;
+	position: absolute;
+	bottom: -20%;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+
+.activity-nei-anli .activity-Paging{
+	width: 420px;
+	height: auto;
+	margin: 0 auto;
+}
+.activity-nei-anli .activity-Paging ul{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+}
+.activity-nei-anli .activity-Paging ul li{
+	border: 1px solid #DDDDDD;
+	padding: 12px 15px;
+	font-size: 14px;
+}
+.activity-nei-anli .activity-Paging ul li a{
+	color: #333333;
+}
+.activity-nei-anli .activity-Paging ul li:hover a{
+	color: #D6BC75;
+}
+/* Shutter Out Vertical */
+a.hvr-shutter-out-vertical {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  background: #55A2F7;
+  color: #fff;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+a.hvr-shutter-out-vertical:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #55A2F7;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  -webkit-transition-property: transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+a.hvr-shutter-out-vertical:hover,a.hvr-shutter-out-vertical:focus,a.hvr-shutter-out-vertical:active {
+  color: white;
+}
+a.hvr-shutter-out-vertical:hover:before,a.hvr-shutter-out-vertical:focus:before,a.hvr-shutter-out-vertical:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}

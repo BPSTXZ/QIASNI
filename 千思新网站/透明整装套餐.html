@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>千思装饰</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	
+	<link rel="stylesheet" type="text/css" href="css/Package.css" />
+	<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+</head>
+
+<body>
+	<!--头部-->
+	<div class="herder">
+		<div class="herder-top">
+			<div class="herder-position">
+				<img src="images/位置.png" />&nbsp;
+				<span>您的当前位置</span>&nbsp;
+				<sapn class="stxz">长沙</sapn>
+				<img src="images/倒三角_03.png" style="width: 9px;height: 10px;margin-top: -2px;" />
+			</div>
+			<div class="city_select">
+				<div class="city_select1">根据您当前的位置，推荐您去
+					<font class="zhan"><a href="http://www.qszs.com" class="fzdh2">长沙站</a></font>
+				</div>
+				<b class="fzdh5" style="display:none;">长沙</b>
+				<div class="city_select2">
+					<ul class="clearaft">
+						<li><a href="http://www.qszs.com/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">长沙</a></li>
+						<li><a href="http://zz.qszs.com/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">株洲</a></li>
+						<li><a href="http://cz.qszs.com/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">郴州</a></li>
+						<li><a href="http://yz.qszs.com/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">永州</a></li>
+						<li><a href="http://cd.qszs.com/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">常德</a></li>
+						<li><a href="http://hh.qszs.com/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">怀化</a></li>
+						<li><a href="http://sy.qszs.com/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">邵阳</a></li>
+						<li><a href="http://hy.qszs.com/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">衡阳</a></li>
+						<li><a href="http://yy.qszs.com/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">岳阳</a></li>
+						<li><a href="http://wh.qszs.com/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">武汉</a></li>
+					</ul>
+				</div>
+			</div>
+			<script type="text/javascript">
+				$(".herder-position").click(function() {
+					$(".city_select").toggleClass("xianshi");
+				})
+			</script>
+			<div class="herder-tel">
+				<img src="images/电话.png" />&nbsp;
+				<span>24小时服务热线:</span>&nbsp;
+				<sapn>400--857--0857</sapn>
+			</div>
+		</div>
+
+		<div class="herder-content">
+			<div style="display: flex;justify-content: space-between;margin-bottom: 20px;">
+				<a href="http://www.qszs.com/"><img src="images/logo_03.png"/></a>
+				<div class="search" style="margin-top: 10px;">
+					<div class="search-for">
+						<img src="images/搜索.png" />
+						<input type="text" name="" id="" value="" placeholder="案例、样式、产品、楼盘、装修知识等" />
+						<div class="search-an">
+							搜索
+						</div>
+					</div>
+					<div class="Cases-xl" style="width: 400px;float: left;height: 24px;line-height: 24px;position: relative;">大家都在搜：<a href="#">案例</a>&nbsp;&nbsp;<a href="#">家具</a>&nbsp;&nbsp;<a href="#">装修 </a>&nbsp;&nbsp;<a href="#">透明整装</a><span style="position: absolute;right: 0;">分享到：</span></div>
+					<div class="bdsharebuttonbox" style="float:left;">
+						
+				<a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+				<a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+				<a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+				
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common": {
+						"bdSnsKey": {},
+						"bdText": "",
+						"bdMini": "2",
+						"bdMiniList": false,
+						"bdPic": "",
+						"bdStyle": "0",
+						"bdSize": "24"
+					},
+					"share": {}
+				};
+				with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
+			</script>
+				</div>
+			</div>
+			<div id="course-tab" style="z-index: 300;">
+				<ul class="menu">
+					<li><a href="index.html">首页</a></li>
+					<li><a href="brand.html">品牌实力</a></li>
+					<li class="active"><a href="透明整装套餐.html" style="color: #DDC67C;">透明整装套餐</a>
+						<ul class="submenu">
+							<li><a href="#">Submenu a</a></li>
+							<li><a href="#">Submenu b</a></li>
+							<li><a href="#">Submenu c</a></li>
+							<li><a href="#">Submenu d</a></li>
+							<li><a href="#">Submenu e</a></li>
+							<li><a href="#">Submenu f</a></li>
+							<li><a href="#">Submenu g</a></li>
+							<li><a href="#">Submenu h</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="优惠活动-最新.html">优惠活动</a>
+						<ul class="submenu">
+							<li><a href="优惠活动-往期.html">往期活动</a></li>
+							<li><a href="优惠活动-特别.html">特别推荐</a></li>
+							<li><a href="优惠活动-案例.html">优秀案例推荐</a></li>
+						</ul>
+					</li>
+					<li><a href="jqal.html">精品案例</a></li>
+					<li><a href="gczl.html">工程质量</a></li>
+					<li><a href="#">设计团队</a></li>
+					<li><a href="装修指南.html">装修指南</a></li>
+					<li><a href="#">无忧保障</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(function() {
+				var a = $('#course-tab'),
+					b = a.offset();
+				$(document).on('scroll', function() {
+					var c = $(document).scrollTop();
+					if (b.top <= c) {
+						a.css({
+							'position': 'fixed',
+							'top': '0px',
+							'box-shadow':'0px 1px 3px 0px #6A6A6A'
+						})
+					} else {
+						a.css({
+							'position': 'absolute',
+							'top': '175px',
+							'box-shadow':'none'
+						})
+					}
+				})
+			});
+	</script>
+	<!--banner-->
+	<div class="Package-banner">
+		<div class="nowadvisory">
+			<div class="advisory">
+				<div class="top">免费装修咨询<span>|  千思装饰已为<b id="myTargetElement5" style="color: #3676FC;">1963045</b>人提供装修咨询</span></div>
+				<div class="advisory_submit">
+					<form id="myform" action="" method="post" name="mobileform" onsubmit="return checkMobile();">
+						<select name="cs">
+									<option value="请选择所在城市">请选择所在城市</option>
+									<option value="长沙">长沙</option>
+									<option value="株洲">株洲</option>
+									<option value="岳阳">岳阳</option>
+									<option value="衡阳">衡阳</option>
+									<option value="邵阳">邵阳</option>
+									<option value="怀化">怀化</option>
+									<option value="郴州">郴州</option>
+									<option value="永州">永州</option>
+									<option value="武汉">武汉</option>
+								</select>
+						<input type="text" placeholder="填写手机号码，获取免费咨询名额" name="dh" id="dh">
+						<button>立即咨询</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			document.getElementById('myform').reset();
+
+			function checkMobile() {
+				if (mobileform.cs.value == "请选择所在城市") {
+					alert('请输入请选择所在城市');
+					document.mobileform.cs.focus();
+					return false;
+				}
+				var sMobile = document.mobileform.dh.value;
+				if (!(/^1[34578]\d{9}$/.test(sMobile))) {
+					alert("请输入正确的手机号码");
+					document.mobileform.dh.focus();
+					return false;
+				}
+			}
+		</script>
+	</div>
+	<!--透明家装-->
+	<div class="Package-jiazhuang">
+		<div class="Package-title">
+			透明家装
+			<div class="title-background">
+
+			</div>
+		</div>
+		<p style="padding-top:30px ;">
+			&nbsp;&nbsp;&nbsp;&nbsp; 装修是智慧与空间的固态呈现，真正解决传统装修弊病，应该将设计、选材、工艺、价格、服务一一纳入家装体系，以系统全面的装修方案应对 家庭居住中的各种问题，打造人性化的合理家居空间。
+		</p>
+		<p>
+			&nbsp;&nbsp;&nbsp;&nbsp; 千思以公开报价，公开主材与施工工艺的运营模式率先推出透明装修，主张信息透明与提升客户体验，从装修设计，选材，工艺，价格乃至售后系统管理， 全过程保障家装各个节点的规范化的同时，更加确保装修透明化！为中国消费者提供最透明的智能全装体系，并提供优质的售后服务。
+		</p>
+		<ul class="ul-title">
+			<li class="li-color"><b>设计透明</b></li>
+			<li><b>价格透明</b></li>
+			<li><b>选材透明</b></li>
+			<li><b>工地透明</b></li>
+		</ul>
+		<ul class="ul-curtten">
+			<li class="ul-design" style="display: flex;">
+				<div class="waik">
+					<b>线上预约</b>
+					<p style="padding: 15px 0;">——</p>
+					<p>方便快捷</p>
+					<p>预约知名室内设计师</p>
+					<div class="img"></div>
+				</div>
+				<div class="waik">
+					<b>免费验房、量房</b>
+					<p style="padding: 15px 0;">——</p>
+					<p>专业验房量房团队</p>
+					<p>专门为业主服务</p>
+					<div class="img" style="background-position-x: -234px;"></div>
+				</div>
+				<div class="waik">
+					<b>资深设计师</b>
+					<p style="padding: 15px 0;">——</p>
+					<p>资深设计师</p>
+					<p>量身定制1-2套方案</p>
+					<div class="img" style="background-position-x: -478px;"></div>
+				</div>
+				<div class="waik">
+					<b>估算</b>
+					<p style="padding: 15px 0;">——</p>
+					<p>合理估算</p>
+					<p>给你一份详细装修预算</p>
+					<div class="img" style="background-position-x: -717px;"></div>
+				</div>
+				<div class="waik">
+					<b>满意确定公司</b>
+					<p style="padding: 15px 0;">——</p>
+					<p>千思装饰</p>
+					<p>全程为您服务</p>
+					<div class="img" style="background-position-x: -955px;"></div>
+				</div>
+			</li>
+			<li class="ul-price">
+
+			</li>
+			<li class="ul-Selection">
+
+			</li>
+			<li class="ul-Site">
+				<div class="Site-top">
+					<div class="Site-flex">
+						<div></div>
+						<p>放样</p>
+						<span></span>
+					</div>
+					<div class="Site-flex">
+						<div style="background-position-x: -265px;"></div>
+						<p>放样</p>
+						<span style="background-position-x: -252px;"></span>
+					</div>
+					<div class="Site-flex">
+						<div style="background-position-x: -531px;"></div>
+						<p>放样</p>
+						<span style="background-position-x: -502px;"></span>
+					</div>
+					<div class="Site-flex">
+						<div style="background-position-x: -796px;"></div>
+						<p>放样</p>
+						<span style="background-position-x: -752px;"></span>
+					</div>
+					<div class="Site-flex">
+						<div style="background-position-x: -1067px;"></div>
+						<p>放样</p>
+						<span style="background-position-x: -1002px;"></span>
+					</div>
+				</div>
+				<div class="Site-back"></div>
+			</li>
+		</ul>
+	</div>
+	<script type="text/javascript">
+		for (var i = 0; i < $(".ul-title li").length; i++) {
+			(function(i) {
+				$(".ul-title li").eq(i).mouseover(function() {
+					for (var j = 0; j < $(".ul-curtten li").length; j++) {
+						$(".ul-curtten li").eq(j).css({
+							"display": "none"
+						})
+						$(".ul-title li").eq(j).css({
+							"color": "#666666"
+						})
+					}
+					$(".ul-curtten li").eq(i).css({
+						"display": "flex"
+					})
+					$(".ul-title li").eq(i).css({
+						"color": "#333333"
+					})
+				})
+			})(i);
+		}
+	</script>
+	<!--12不限-->
+	<div class="Package-bx">
+		<div class="Package-title">
+			十二不限
+			<div class="title-background" style="background-position:20px -28px;">
+
+			</div>
+		</div>
+		<ul>
+			<li>
+				<p>水电重走不限</p>
+			</li>
+			<li style="background-position-x: -204px;">
+				<p>衣柜长度不限</p>
+			</li>
+			<li style="background-position-x: -405px;">
+				<p style="height: 100px;padding-top:60px;">橱柜(L型)延米<br/>不限</p>
+			</li>
+			<li style="background-position-x: -602px;">
+				<p>地板面积不限</p>
+			</li>
+			<li style="background-position-x: -803px;">
+				<p style="height: 100px;padding-top:60px;">瓷砖面积不限<br/><span style="font-size: 13px;">(地面，厨卫墙面)</span></p>
+			</li>
+			<li style="background-position-x: -1001px;">
+				<p>墙漆面积不限</p>
+			</li>
+			<li style="background-position:-5px -199px;">
+				<p>包下水管不限</p>
+			</li>
+			<li style="background-position:-204px -199px;">
+				<p style="height: 100px;padding-top:60px;">开关插座面板<br/>不限</p>
+			</li>
+			<li style="background-position:-405px -199px;">
+				<p style="height: 100px;padding-top:60px;">厨卫铝扣板吊顶<br/>不限</p>
+			</li>
+			<li style="background-position:-602px -199px;">
+				<p style="height: 100px;padding-top:60px;">卫生间陶粒回填<br/>不限</p>
+			</li>
+			<li style="background-position:-803px -199px;">
+				<p style="height: 100px;padding-top:60px;">厨卫不锈钢<br/>阳角线不限</p>
+			</li>
+			<li style="background-position:-1001px -199px;">
+				<p>卧室窗台石不限</p>
+			</li>
+		</ul>
+	</div>
+	<!--一线大牌-->
+	<div class="Package-dapai">
+		<div class="Package-title">
+			一线大牌
+			<div class="title-background" style="background-position-y: -60px;">
+
+			</div>
+		</div>
+		<div class="dapai">
+
+		</div>
+	</div>
+	<!--8.0至尊版-->
+	<div class="Package-zhizun">
+		<div class="Package-title">
+			质造家8.0质尊版
+			<div class="title-background" style="background-position-y: -93px;">
+
+			</div>
+		</div>
+		<ul class="zhizun-one-ul">
+			<li class="zhizun-one-ul-li" style="display: block;">
+				<div class="zhizun-neirong">
+					<p style="color: #122E5E;font-size: 30px;">9.98万(80㎡)</p>
+					<p style="color: #666666;font-size: 20px;">(2房2厅1厨1卫+阳台)</p>
+					<ul class="ul-neirong">
+						<li>
+							<span>A 基础装修</span>
+							<p style="padding-top: 18px;">水电重走</p>
+							<p>电视背景墙</p>
+							<p>房门及门套</p>
+							<p>鞋柜</p>
+							<p>衣柜</p>
+							<p>书柜</p>
+							<p>书桌</p>
+							<p>吊顶</p>
+							<p>阳台吊顶</p>
+							<p>墙漆</p>
+						</li>
+						<img src="images/images/加号_03.png" />
+						<li>
+							<span>B 品牌主材</span>
+							<p style="padding-top: 18px;">瓷砖</p>
+							<p>木地板</p>
+							<p>洁具</p>
+							<p>整体橱柜</p>
+							<p>五金</p>
+						</li>
+						<img src="images/images/加号_03.png" />
+						<li>
+							<span>C 品牌家具</span>
+							<p style="padding-top: 18px;">沙发</p>
+							<p>茶几</p>
+							<p>电视机柜</p>
+							<p>床</p>
+							<p>床头柜</p>
+							<p>餐桌</p>
+							<p>餐椅</p>
+						</li>
+						<img src="images/images/加号_03.png" />
+						<li>
+							<span>D 软装配饰</span>
+							<p style="padding-top: 18px;">灯具</p>
+							<p>窗帘</p>
+						</li>
+					</ul>
+				</div>
+			</li>
+			<li class="zhizun-one-ul-li">
+				<div class="zhizun-neirong">
+					<p style="color: #122E5E;font-size: 30px;">10.98万(90㎡)</p>
+					<p style="color: #666666;font-size: 20px;">(3房2厅1厨1卫+阳台)</p>
+					<ul class="ul-neirong">
+						<li>
+							<span>A 基础装修</span>
+							<p style="padding-top: 18px;">水电重走</p>
+							<p>电视背景墙</p>
+							<p>房门及门套</p>
+							<p>鞋柜</p>
+							<p>衣柜</p>
+							<p>书柜</p>
+							<p>书桌</p>
+							<p>吊顶</p>
+							<p>阳台吊顶</p>
+							<p>墙漆</p>
+						</li>
+						<img src="images/images/加号_03.png" />
+						<li>
+							<span>B 品牌主材</span>
+							<p style="padding-top: 18px;">瓷砖</p>
+							<p>木地板</p>
+							<p>洁具</p>
+							<p>整体橱柜</p>
+							<p>五金</p>
+						</li>
+						<img src="images/images/加号_03.png" />
+						<li>
+							<span>C 品牌家具</span>
+							<p style="padding-top: 18px;">沙发</p>
+							<p>茶几</p>
+							<p>电视机柜</p>
+							<p>床</p>
+							<p>床头柜</p>
+							<p>餐桌</p>
+							<p>餐椅</p>
+						</li>
+						<img src="images/images/加号_03.png" />
+						<li>
+							<span>D 软装配饰</span>
+							<p style="padding-top: 18px;">灯具</p>
+							<p>窗帘</p>
+						</li>
+					</ul>
+				</div>
+			</li>
+			<li class="zhizun-one-ul-li">
+				<div class="zhizun-neirong">
+					<p style="color: #122E5E;font-size: 30px;">11.98万(100㎡)</p>
+					<p style="color: #666666;font-size: 20px;">(3房2厅1厨2卫+阳台)</p>
+					<ul class="ul-neirong">
+						<li>
+							<span>A 基础装修</span>
+							<p style="padding-top: 18px;">水电重走</p>
+							<p>电视背景墙</p>
+							<p>房门及门套</p>
+							<p>鞋柜</p>
+							<p>衣柜</p>
+							<p>书柜</p>
+							<p>书桌</p>
+							<p>吊顶</p>
+							<p>阳台吊顶</p>
+							<p>墙漆</p>
+						</li>
+						<img src="images/images/加号_03.png" />
+						<li>
+							<span>B 品牌主材</span>
+							<p style="padding-top: 18px;">瓷砖</p>
+							<p>木地板</p>
+							<p>洁具</p>
+							<p>整体橱柜</p>
+							<p>五金</p>
+						</li>
+						<img src="images/images/加号_03.png" />
+						<li>
+							<span>C 品牌家具</span>
+							<p style="padding-top: 18px;">沙发</p>
+							<p>茶几</p>
+							<p>电视机柜</p>
+							<p>床</p>
+							<p>床头柜</p>
+							<p>餐桌</p>
+							<p>餐椅</p>
+						</li>
+						<img src="images/images/加号_03.png" />
+						<li>
+							<span>D 软装配饰</span>
+							<p style="padding-top: 18px;">灯具</p>
+							<p>窗帘</p>
+						</li>
+					</ul>
+				</div>
+			</li>
+			<li class="zhizun-one-ul-li">
+				<div class="zhizun-neirong">
+					<p style="color: #122E5E;font-size: 30px;">13.98万(130㎡)</p>
+					<p style="color: #666666;font-size: 20px;">(4房2厅1厨2卫+阳台)</p>
+					<ul class="ul-neirong">
+						<li>
+							<span>A 基础装修</span>
+							<p style="padding-top: 18px;">水电重走</p>
+							<p>电视背景墙</p>
+							<p>房门及门套</p>
+							<p>鞋柜</p>
+							<p>衣柜</p>
+							<p>书柜</p>
+							<p>书桌</p>
+							<p>吊顶</p>
+							<p>阳台吊顶</p>
+							<p>墙漆</p>
+						</li>
+						<img src="images/images/加号_03.png" />
+						<li>
+							<span>B 品牌主材</span>
+							<p style="padding-top: 18px;">瓷砖</p>
+							<p>木地板</p>
+							<p>洁具</p>
+							<p>整体橱柜</p>
+							<p>五金</p>
+						</li>
+						<img src="images/images/加号_03.png" />
+						<li>
+							<span>C 品牌家具</span>
+							<p style="padding-top: 18px;">沙发</p>
+							<p>茶几</p>
+							<p>电视机柜</p>
+							<p>床</p>
+							<p>床头柜</p>
+							<p>餐桌</p>
+							<p>餐椅</p>
+						</li>
+						<img src="images/images/加号_03.png" />
+						<li>
+							<span>D 软装配饰</span>
+							<p style="padding-top: 18px;">灯具</p>
+							<p>窗帘</p>
+						</li>
+					</ul>
+				</div>
+			</li>
+			<li class="zhizun-one-ul-li">
+				<div class="zhizun-neirong">
+					<p style="color: #122E5E;font-size: 30px;">15.98万(160㎡)</p>
+					<p style="color: #666666;font-size: 20px;">(5房2厅1厨2卫+阳台)</p>-->
+					<ul class="ul-neirong">
+						<li>
+							<span>A 基础装修</span>
+							<p style="padding-top: 18px;">水电重走</p>
+							<p>电视背景墙</p>
+							<p>房门及门套</p>
+							<p>鞋柜</p>
+							<p>衣柜</p>
+							<p>书柜</p>
+							<p>书桌</p>
+							<p>吊顶</p>
+							<p>阳台吊顶</p>
+							<p>墙漆</p>
+						</li>
+						<img src="images/images/加号_03.png" />
+						<li>
+							<span>B 品牌主材</span>
+							<p style="padding-top: 18px;">瓷砖</p>
+							<p>木地板</p>
+							<p>洁具</p>
+							<p>整体橱柜</p>
+							<p>五金</p>
+						</li>
+						<img src="images/images/加号_03.png" />
+						<li>
+							<span>C 品牌家具</span>
+							<p style="padding-top: 18px;">沙发</p>
+							<p>茶几</p>
+							<p>电视机柜</p>
+							<p>床</p>
+							<p>床头柜</p>
+							<p>餐桌</p>
+							<p>餐椅</p>
+						</li>
+						<img src="images/images/加号_03.png" />
+						<li>
+							<span>D 软装配饰</span>
+							<p style="padding-top: 18px;">灯具</p>
+							<p>窗帘</p>
+						</li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+
+	</div>
+	<!--计算器-->
+	<div class="Package-canput">
+		<div class="canput-input">
+		</div>
+		<form action="" method="post" id="myformtwo" name="mobileformtwo" onsubmit="return checkMobiletwo();">
+			<select name="didian">
+						<option value="">长沙</option>
+						<option value="">株洲</option>
+						<option value="">永州</option>
+						<option value="">郴州</option>
+						<option value="">常德</option>
+						<option value="">怀化</option>
+						<option value="">邵阳</option>
+						<option value="">衡阳</option>
+						<option value="">岳阳</option>
+						<option value="">武汉</option>
+					</select>
+			<input type="text" name="lp" id="" value="" placeholder="房子所在楼盘" />
+			<input type="number" name="mj" id="" value="" placeholder="房屋面积㎡" />
+			<select id="shi" name="shi">
+							<option value="一室">一室</option>
+							<option value="二室">二室</option>
+							<option value="三室">三室</option>
+							<option value="四室">四室</option>
+							<option value="四室以上">四室以上</option>
+					</select>
+			<select id="ting" name="ting">
+							<option value="一厅">一厅</option>
+							<option value="二厅">二厅</option>
+							<option value="三厅">三厅</option>
+							<option value="三厅以上">三厅以上</option>
+				 	</select>
+			<select id="chu" name="chu">
+							<option value="一厨">一厨</option>
+							<option value="二厨">二厨</option>
+					 </select>
+			<select id="wei" name="wei">
+							<option value="一卫">一卫</option>
+							<option value="二卫">二卫</option>
+							<option value="三卫">三卫</option>
+							<option value="三卫以上">三卫以上</option>
+					</select>
+			<select id="yang" name="yang">
+							<option value="一阳台">一阳台</option>
+							<option value="二阳台">二阳台</option>
+							<option value="三阳台">三阳台</option>
+							<option value="四阳台">四阳台</option>
+					</select>
+			<input type="tel" name="dh" id="jsdh" value="" placeholder="请输入您的电话：" maxlength="11" />
+			<input type="submit" value="获取报价服务" class="submit" />
+		</form>
+		<div class="canput-txt">
+			<b>累计已有</b>
+			<span>
+					58888
+				</span>
+			<p>位业主获取成功</p>
+		</div>
+	</div>
+	<script type="text/javascript">
+		document.getElementById('myformtwo').reset();
+
+		function checkMobiletwo() {
+			var sMobile = document.mobileformtwo.dh.value.replace(/\s+/g, "");
+			var Areas = document.mobileformtwo.mj.value.replace(/\s+/g, "");
+			if (Areas < 10 || isNaN(Areas)) {
+				alert('请输入正确房屋面积');
+				document.mobileformtwo.mj.focus();
+				return false;
+			}
+			if (!(/^1[34578]\d{9}$/.test(sMobile))) {
+				alert("请输入正确的手机号码");
+				document.mobileformtwo.dh.focus();
+				return false;
+			}
+		}
+		$(function() {
+			$("input[name='mj']").bind("input propertychange", function() {
+				var a = $(this).parents("form"),
+					b = $(a).find("input[name='mj']").val();
+				60 >= parseInt(b) ? (
+						$(a).find("select[name='shi']").val("一室"),
+						$(a).find("select[name='ting']").val("一厅"),
+						$(a).find("select[name='wei']").val("一卫")
+					) :
+					60 < parseInt(b) && 90 > parseInt(b) ? (
+						$(a).find("select[name='shi']").val("二室"),
+						$(a).find("select[name='ting']").val("一厅"),
+						$(a).find("select[name='wei']").val("一卫")
+					) :
+					90 <= parseInt(b) && 136 > parseInt(b) ? (
+						$(a).find("select[name='shi']").val("三室"),
+						$(a).find("select[name='ting']").val("二厅"),
+						$(a).find("select[name='wei']").val("二卫")
+					) :
+					136 <= parseInt(b) && (
+						$(a).find("select[name='shi']").val("四室"),
+						$(a).find("select[name='ting']").val("二厅"),
+						$(a).find("select[name='wei']").val("二卫")
+					)
+			});
+		})
+
+		function init_price() {
+			var Tprice = {
+				"price": 58888,
+			};
+			$(".canput-txt span").html(Tprice.price);
+		}
+
+		function change_price() {
+			var num = Math.ceil(Math.random() * 20000);
+			if (parseInt($(".canput-txt span").html()) > 99999) {
+				init_price();
+			}
+			$(".canput-txt span").html(parseInt($(".canput-txt span").html()) + parseInt(num / 200));
+		}
+		var t = setInterval(change_price, 200);
+	</script>
+	<!--实景VR实例-->
+	<div class="Package-VR">
+		<div class="Package-title">
+			实景VR实例
+			<div class="title-background" style="background-position-y: -125px;">
+
+			</div>
+		</div>
+		<div class="box">
+			<div class="list">
+				<ul>
+					<li class="p5"><a href="#"><img src="images/images/VR现代.jpg" alt="" /></a></li>
+					<li class="p4"><a href="#"><img src="images/images/VR欧式2.jpg" alt="" /></a></li>
+					<li class="p3"><a href="#"><img src="images/images/VR中式_03.jpg" alt="" /></a></li>
+					<li class="p2"><a href="#"><img src="images/images/VR美式.jpg" alt="" /></a></li>
+					<li class="p1"><a href="#"><img src="images/images/VR地中海2.jpg" alt="" /></a></li>
+				</ul>
+			</div>
+
+			<a href="javascript:;" class="prev vrbtn">
+				<</a>
+					<a href="javascript:;" class="next vrbtn">></a>
+
+					<div class="buttons">
+						<a href="javascript:;"><span class="vrblue">中式</span></a>
+						<a href="javascript:;"><span>欧式</span></a>
+						<a href="javascript:;"><span>现代</span></a>
+						<a href="javascript:;"><span>地中海</span></a>
+						<a href="javascript:;"><span>美式</span></a>
+					</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/VR.js"></script>
+	<!--客户见证-->
+	<div class="Package-kehu">
+		<div class="Package-title">
+			客户见证
+			<div class="title-background" style="background-position-y: -155px;">
+
+			</div>
+		</div>
+		<div class="kehu-neir">
+
+		</div>
+	</div>
+	<!--其他整装套餐-->
+	<div class="Package-qt">
+		<div class="Package-title">
+			其他整装套餐
+			<div class="title-background" style="background-position-y: -187px;">
+
+			</div>
+		</div>
+		<div class="qt-tu">
+			<a href=""></a>
+			<a href=""></a>
+			<a href=""></a>
+			<a href=""></a>
+		</div>
+	</div>
+	<!--尾部-->
+	<footer>
+		<div class="footer clearaf">
+			<div class="footer_menu1">
+				<b><a href="javascript:void(0)?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">关于我们</a></b>
+
+				<span><a href="/qs/qsjj/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1" rel="nofollow">千思简介</a></span>
+
+				<span><a href="/qs/qswh/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1" rel="nofollow">企业文化</a></span>
+
+				<span><a href="/qs/qsry/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1" rel="nofollow">企业荣誉</a></span>
+
+				<span><a href="/qs/qsgy/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1" rel="nofollow">千思公益</a></span>
+
+			</div>
+			<div class="footer_menu1">
+				<b><a href="/tmjz/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">透明家装</a></b>
+				<span><a href="/tmjz/#tmfw?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">透明服务</a></span>
+				<span><a href="/tmjz/#zzqd?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">整装清单</a></span>
+				<span><a href="/tmjz/#tmcl?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">透明承诺</a></span>
+			</div>
+			<div class="footer_menu1">
+				<b><a href="javascript:void(0)?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">装修帮助</a></b>
+
+				<span><a href="/help/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">家装问答</a></span>
+
+				<span><a href="/zsfw/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">装饰服务</a></span>
+			</div>
+			<div class="footer_menu2">
+				客服专线<b>400-857-0857 0731-84485151</b>
+				<span>服务时间：周一至周日 8:30-22:00</span>
+				<a href="http://dft.zoosnet.net/lr/chatpre.aspx?id=dft71551910&amp;lng=cn?baidu_pc-zhangshaqiansi-zy_qiansi&amp;e_adposition=cl1&amp;r=&amp;rf1=http%3A//www.qszs.com/qbtzs_zty/index&amp;rf2=.html%3Fbaidu_pc-zhangshaqiansi-ZY_qiansi%26e_adposition%3Dcl1&amp;p=http%3A//www.qszs.com/%3Fbaidu_pc-zhangshaqiansi-ZY_qiansi%26e_adposition%3Dcl1&amp;cid=1523526111178723558734&amp;sid=1523839909652242063541"
+				  target="_blank" rel="nofollow"><img src="images/zxkfico_03.jpg" width="111" height="27"></a>
+				<a href="//shang.qq.com/wpa/qunwpa?idkey=51f4490a959d980d8ea4d13e5a58f5578f9db5f8ca9968f44561dc98dc99a559?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1" rel="nofollow" target="_blank"><img src="images/txqqico_03.jpg" width="111" height="27"></a>
+				<a href="javascript:void(0)?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1" onmousemove="wxsqsb()" onmouseout="wxsqout()" rel="nofollow">
+					<img src="images/wxsqico_03.jpg" width="111" height="27">
+						<div class="wxsq" id="wxsq" style="display: none;"><img src="images/wxsqewm.jpg" width="239" height="114"></div>
+					</a>
+			</div>
+			<script>
+				function wxsqsb() {
+					document.getElementById("wxsq").style.display = "block";
+				}
+
+				function wxsqout() {
+					document.getElementById("wxsq").style.display = "none";
+				}
+			</script>
+			<div class="footer_menu3 clearaf">
+				<span>手机版<img src="images/1511678492.png" width="115" height="115"></span>
+				<span>官方微信<img src="images/footer3_03.jpg" width="115" height="115"></span>
+			</div>
+		</div>
+		<div class="config">Copyright © 湖南千思智造家装饰有限责任公司 版权所有
+			<a href="http://www.miitbeian.gov.cn?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1" target="_blank" rel="nofollow" style="color: #939393;">
+		    		湘ICP备12008584号-2
+		    	</a>
+			<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=43010202000681?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;" rel="nofollow">
+		    		<img src="" style="float:left;">
+		    		<p style="margin: 0px 0px 0px 5px; color:#939393;">
+		    			湘公网安备 43010202000681号
+		    		</p>
+		    	</a>
+			<a href="http://www.qszs.com/sitemap.html?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1" style="color: #939393;">
+		    		网站地图
+		    	</a>
+		</div>
+	</footer>
+</body>
+
+</html>

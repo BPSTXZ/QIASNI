@@ -1,0 +1,292 @@
+/*导航链接*/
+.al-navigation{
+	width: 1200px;
+	height:67px;
+	margin: 0 auto;
+	line-height: 67px;
+	font-size: 17px;
+	text-align: left;
+}
+.al-navigation a{
+	color: #000000;
+}
+.al-navigation a:hover{
+	color: #D4BA73;
+}
+/*内容区*/
+.al-content{
+	width: 1200px;
+	margin: 0 auto 47px;
+	color: #333333;
+}
+.al-Cases,.al-resume{
+	float: left;
+}
+/*内容图片区*/
+.al-Cases{
+	width: 830px;
+	margin-right: 26px;
+	margin-bottom: 30px;
+	text-align: center;
+	border: 1px solid #D0D0D0;
+}
+.al-Cases h6{
+	font-size: 25px;
+	margin: 27px 0;
+}
+.al-Cases .Cases-xl{
+	text-align: left;
+	margin-left:17px ;
+	font-size: 15px;
+	/*box-sizing: border-box;*/
+}
+.al-Cases .table{
+	width: 100%;
+	height: 197px;
+	margin: 40px 0;
+}
+.al-Cases .table .left{
+	background: #E6E6E6;
+	width: 168px;
+	height: 50px;
+}
+.al-Cases .table div{
+	border:1px solid #D0D0D0;
+	box-sizing: border-box;
+	width: 247px;
+	height: 50px;
+	float: left;
+	line-height: 50px;
+}
+.al-Cases .table .scroll{
+	overflow: auto;
+}
+.Cases-xq{
+	width:815px;
+	padding: 15px;
+	height: auto;
+	font-size: 15px;
+	text-align: left;
+}
+.Cases-xq b{
+	font-size: 17px;
+	text-align: left;
+}
+.Cases-xq p{
+	text-indent: 30px;
+	padding-top:15px ;
+	padding-right: 7px;
+}
+.Cases-xq img{
+	clear: both;
+	display: block;
+	margin: 26px auto 0;
+	max-width: 790px;
+}
+.Cases-xq video{
+	clear: both;
+	display: block;
+	margin: 26px auto 0;
+	max-width: 790px;
+}
+.Cases-xq-page{
+	width: 100%;
+	height: 50px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	margin: 5px auto 0;
+}
+.Cases-xq-page a{
+	padding-left: 10px;
+	color: #303030;
+}
+.Cases-xq-page a:hover{
+	color: #F25213;
+}
+.Cases-xq-page img,.Cases-xq-page a{
+	float: left;
+	line-height: 70px;
+}
+/*设计师简历区*/
+.al-resume{
+	width: 340px;
+	
+	margin-bottom: 30px;
+}
+.al-resume .resume-1{
+	width: 300px;
+	height: 158px;
+	border: 1px solid #D0D0D0;
+	padding: 20px;
+}
+.al-resume .resume-1 h6{
+	font-size: 17px;
+}
+.resume-1 .img,.resume-1 a,.resume-1 p{
+	float: left;
+}
+.al-resume .resume-1 .img{
+	width: 128px;
+	height: 133px;
+	background: url(../images/朱蓉.jpg)no-repeat top;
+	background-size:cover ;
+	margin-top: 10px;
+}
+.al-resume .resume-1 p{
+	font-size: 15px;
+	padding: 3px 0 0 7px;
+}
+.al-resume .resume-1 a{
+	display: block;
+	width: 147px;
+	height: 30px;
+	color: white;
+	background: #007AFF;
+	-webkit-transition: .5s;
+	transition: .5s;
+	text-align: center;
+	line-height: 30px;
+	margin: 7px;
+}
+.al-resume .resume-1 a:hover{
+	background: none;
+	border: 2px solid #007AFF;
+	color: #007AFF;
+	border-radius: 15px;
+}
+
+.al-resume .resume-2{
+	width: 100%;
+	height: 851px;
+	border: 1px solid #D0D0D0;
+	margin: 20px auto;
+}
+.al-resume .resume-2 .al-form{
+	width: 100%;
+	height: 400px;
+	text-align: center;
+	border-bottom: 1px solid #D0D0D0;
+}
+.al-resume .resume-2 .al-form h6{
+	font-size: 20px;
+	color: #2E89FF;
+	margin-top: 30px;
+}
+.al-resume .resume-2 .al-form p{
+	padding: 8px;
+	font-size: 12px;
+}
+.al-resume .resume-2 .al-form form{
+	width: 303px;
+	height: 329px;
+	font-size: 0;
+	margin: 0 auto;
+}
+.al-resume .resume-2 .al-form form input,.al-resume .resume-2 .al-form select{
+	width: 100%;
+	height: 49px;
+	border: 1px solid #D0D0D0;
+	border-radius: 5px;
+	margin-bottom:8px ;
+	text-indent: 20px;
+	font-size: 15px;
+	color: #757575;
+}
+.al-resume .resume-2 .al-form form .submit{
+	color: white;border: none;background: #007AFF;
+	font-size: 20px;
+}
+.al-resume .resume-2 .al-form form p{
+	font-size: 12px;
+	padding-top: 15px;
+}
+.al-resume .resume-2 .lunbo{
+	width: 100%;
+	height: 408px;
+	text-align: center;
+}
+.al-resume .resume-2 .lunbo h6{
+	font-size: 20px;
+	color: #2E89FF;
+	padding: 20px 0;
+}
+.resume-2 .lunbo .lunbo-hid{
+	width: 297px;
+	height: 334px;
+	border-top:1px solid  #D0D0D0;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+}
+.lunbo .lunbo-hid .ul-de{
+	position: absolute;
+	top: 0;
+	left: 12%;
+}
+.resume-2 .lunbo .lunbo-hid li{
+	font-size: 13px;
+	padding-top: 18px;
+}
+
+.al-resume .resume-3{
+	width: 100%;
+	height: 1340px;
+	border: 1px solid #D0D0D0;
+}
+.al-resume .resume-3 b{
+	font-size: 17px;
+	margin: 18px;
+	display: block;
+}
+.resume-sheji{
+	width: 280px;
+	height: 401px;
+	margin: 0 auto 10px;
+	position: relative;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+.resume-sheji:hover{
+	-webkit-box-shadow: 0 0 8px 1px #676360;
+	        box-shadow: 0 0 8px 1px #676360;
+}
+.resume-sheji:hover .one img{
+	-webkit-transform: scale(1.3);
+	        transform: scale(1.3);
+}
+.resume-sheji .one{
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+.resume-sheji .one img{
+	width: 100%;
+	height: 100%;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+.resume-sheji .two{
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	top: 65%;
+	left: 70%;
+	background: url(../images/朱蓉.jpg)no-repeat top;
+	background-size:cover ;
+	-webkit-box-shadow: 0 0 4px 1px #333333;
+	        box-shadow: 0 0 4px 1px #333333;
+}
+.resume-sheji  .three{
+	width: 100%;
+	height: 100px;
+	background: #EBEBEB;
+	font-size: 12px;
+}
+.resume-sheji  .three p{
+	padding: 10px;
+	padding-left: 15px;
+}

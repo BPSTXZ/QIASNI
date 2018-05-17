@@ -1,0 +1,214 @@
+/*banner*/
+
+.site-banner {
+  width: 100%;
+  height: 501px;
+  min-width: 1200px;
+  background: url(../images/images/工地背景_02.jpg)no-repeat center;
+  position: relative;
+}
+
+.site-form {
+  width: 380px;
+  height: 300px;
+  background: white;
+  position: absolute;
+  top: 104px;
+  left: 60.6%;
+}
+
+.site-form h6 {
+  font-size: 24px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.site-form form {
+  width: 305px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.site-form form input {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #CDCDCD;
+  color: #333333;
+  text-indent: 20px;
+  margin-bottom: 10px;
+}
+
+.site-form form .submit {
+  width: 200px;
+  height: 50px;
+  background: #EF2C3A;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  margin-left: 48px;
+  line-height: 50px;
+  text-indent: 0;
+  cursor: pointer;
+}
+
+.site-form form .submit:hover {
+  -webkit-box-shadow: 0 0 10px 1px #8F3F55;
+  box-shadow: 0 0 10px 1px #8F3F55;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+/*筛选区*/
+
+.site-filter .table {
+  margin: 40px auto;
+  width: 1200px;
+  height: 196px;
+  text-align: center;
+}
+.site-filter .table li{
+	width: 100%;
+	height: 50px;
+}
+.site-filter .table .left {
+  background: #E6E6E6;
+  width: 200px;
+}
+
+.site-filter .table .rigtxt {
+	width: 1000px;
+  text-align: left;
+}
+
+.site-filter .table .rigtxt span {
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.site-filter .table .rigtxt span:hover {
+  color: #48A0FF;
+}
+
+.site-filter .table .rigtxt .rigtxt-color {
+  color: #48A0FF;
+}
+
+.site-filter .table div {
+	height: 50px;
+  border: 1px solid #D0D0D0;
+  box-sizing: border-box;
+  float: left;
+  line-height: 50px;
+}
+
+/*案例区*/
+
+.site-Cases {
+  width: 1200px;
+  height: auto;
+  margin: 50px auto;
+}
+
+.Cases-schedule {
+  width: 100%;
+  height: 256px;
+  margin-bottom: 25px;
+  border-bottom: 1px dashed #CCCCCC;
+}
+
+.Cases-schedule .img {
+  width: 300px;
+  height: 222px;
+  -webkit-box-shadow: 0 0 6px 1px #D7D7D7;
+  box-shadow: 0 0 6px 1px #D7D7D7;
+  overflow: hidden;
+}
+
+.Cases-schedule .img img {
+  display: none;
+  height: 100%;
+}
+
+.Cases-schedule h6 {
+  font-size: 22px;
+  padding: 14px 20px;
+}
+
+.Cases-schedule p {
+  font-size: 14px;
+  color: #666666;
+  padding: 9px 20px;
+}
+
+.Cases-schedule .img, .Cases-schedule .both {
+  float: left;
+}
+
+.Cases-schedule .both .span {
+  width: 760px;
+  height: 50px;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  border-bottom: 1px solid #D0D0D0;
+  color: #333333;
+  cursor: pointer;
+}
+
+.Cases-schedule .both .p {
+  width: 760px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin-top: -30px;
+  margin-left: 20px;
+}
+
+.Cases-schedule .both .p li {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #cccccc;
+}
+
+/*分页区*/
+
+.site-Pag {
+  width: 1200px;
+  height: auto;
+  margin: 50px auto;
+}
+
+.site-Pag ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.site-Pag ul li {
+  border: 1px solid #E2E2E2;
+  font-size: 14px;
+  padding: 10px 15px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.site-Pag ul li:hover {
+  color: white;
+  background: #007AFF;
+}
+
+.site-Pag .color {
+  color: white;
+  background: #007AFF;
+}

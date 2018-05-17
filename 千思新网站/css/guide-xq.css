@@ -1,0 +1,90 @@
+
+.guide-title{
+	width:860px ;
+	height: 95px;
+	border-bottom: 1px solid #CCCCCC;
+	margin: auto;
+}
+.guide-title b{
+	font-size: 25px;
+	text-align: center;
+	display: block;
+	margin: 20px 0;
+}
+.guide-title span{
+	padding: 20px;
+}
+.left-guide h6{
+	font-size: 17px;
+}
+.left-guide p,.left-guide h6{
+	padding: 0 24px;
+	line-height: 25px;
+}
+.left-guide p{
+	text-indent: 30px;
+}
+.left-guide img{
+	margin:40px auto;
+	max-width: 790px;
+	display:block;
+}
+.guide-three{
+	width: 910px;
+	height: 500px;
+	float: left;
+	font-size: 17px;
+}
+.guide-three p{
+	padding: 13px 0;
+}
+.guide-three p a{
+	color: #333333;
+}
+.guide-three p a:hover{
+	color: #D6BC75;
+}
+.guide-three h6{
+	font-size: 20px;
+	display: inline-block;
+	border-bottom: 2px solid #007AFF;
+	padding: 10px 0;
+}
+.guide-three .Other-cases{
+	width: 100%;
+	height: 260px;
+	border-top: 1px solid #DFDFDF;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+}
+
+.guide-three .Other-cases a{
+	display: block;
+	width: 250px;
+	height: 200px;
+	background: url(../images/sheji1.jpg)no-repeat center;
+	background-size:cover ;
+	margin-top: 30px;
+	position: relative;
+	overflow: hidden;
+}
+.guide-three .Other-cases a:hover:before{
+	bottom: 0;
+}
+.guide-three .Other-cases a:before{
+	content: "北辰中央公园-现代风格-120㎡ ";
+	text-align: center;
+	width: 100%;
+	height: 38px;
+	background: rgba(0,0,0,.5);
+	display: block;
+	line-height: 38px;
+	color: white;
+	position: absolute;
+	bottom: -38px;
+	-webkit-transition: .5s;
+	transition: .5s;
+}

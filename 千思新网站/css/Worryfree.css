@@ -1,0 +1,375 @@
+/*导航链接*/
+.al-navigation{
+	width: 1200px;
+	height:67px;
+	margin: 0 auto;
+	line-height: 67px;
+	font-size: 17px;
+	text-align: left;
+}
+.al-navigation a{
+	color: #000000;
+}
+.al-navigation a:hover{
+	color: #D4BA73;
+}
+/*内容区*/
+.wy-content{
+	width: 1200px;
+	margin: 0 auto ;
+	height: auto;
+	color: #333333;
+}
+.wy-content div{
+	box-sizing: border-box;
+}
+.left-wy,.right-wy{
+	float: left;
+	height: auto;
+}
+/*左边区*/
+.left-wy{
+	width: 330px;
+	margin-right: 20px;
+	margin-bottom: 50px;
+}
+.left-wy ul.navigation{
+	width: 100%;
+}
+.left-wy ul.navigation .li{
+	width: 100%;
+	display: block;
+	height: 59px;
+	border: 1px solid #D8D8D8;
+	line-height: 59px;
+	font-size: 22px;
+	cursor: pointer;
+}
+.left-wy ul.navigation .li:hover{
+	background: #007AFF;
+	color: white;
+}
+.left-wy ul.navigation .li:hover span{
+	background-position-x:-30px ;
+}
+.left-wy ul.navigation .li b{
+	font-weight: 500;
+}
+.left-wy ul.navigation .li .left{
+	background-position-x:-30px ;
+}
+.left-wy ul.navigation .li.now{
+	background: #007AFF;
+	color: white;
+}
+.left-wy ul.navigation .li span{
+	display: inline-block;
+	width:30px;
+	height: 30px;
+	background: url(../images/images/liucheng_b.png)no-repeat;
+	vertical-align: middle;
+	margin:0 28px;
+}
+.left-wy ul.navigation .li .s1{
+	background-position-y:-36px;
+}
+.left-wy ul.navigation .li .s3{
+	background-position-y:-103px;
+}
+.left-wy ul.navigation .li .s4{
+	background-position-y:-133px;
+}
+.left-wy ul.navigation .li .s5{
+	background-position-y:-70px;
+}
+.left-wy ul.navigation .li .pp{
+	padding-right: 96px;
+}
+
+.al-form{
+	width: 100%;
+	height: 445px;
+	border: 1px solid #D8D8D8;
+	margin-top: 20px;
+	text-align: center;
+}
+ .al-form h6{
+	font-size: 20px;
+	color: #2E89FF;
+	margin-top: 30px;
+}
+ .al-form p{
+	padding: 8px;
+	font-size: 12px;
+}
+ .al-form form{
+	width: 303px;
+	height: 329px;
+	font-size: 0;
+	margin: 0 auto;
+}
+ .al-form form input, .al-form select{
+	width: 100%;
+	height: 49px;
+	border: 1px solid #D0D0D0;
+	border-radius: 5px;
+	margin-bottom:8px ;
+	text-indent: 20px;
+	font-size: 15px;
+	color: #757575;
+}
+ .al-form form .submit{
+	color: white;border: none;background: #007AFF;
+	font-size: 20px;
+}
+ .al-form form p{
+	font-size: 13px;
+	padding-top: 15px;
+}
+.left-wy .Cases-wy{
+	width: 100%;
+	height: auto;
+	margin-top: 25px;
+}
+.left-wy .Cases-wy p{
+	display: inline-block;
+	width: 100%;
+	padding: 8px 0;
+	border-bottom: 1px solid #D8D8D8;
+	font-size: 16px;
+}
+.left-wy .Cases-wy p a{
+	float: right;
+	color: #6B6B6B;
+}
+.left-wy .Cases-wy p a:hover{
+	color: #D8BF77;
+}
+.left-wy .Cases-wy ul{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.left-wy .Cases-wy ul li{
+	width: 160px;
+	height: 160px;
+	overflow: hidden;
+	position: relative;
+	font-size: 14px;
+	margin-top: 12px;
+}
+.left-wy .Cases-wy ul li img{
+	display:block;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+.left-wy .Cases-wy ul li span{
+	display: block;
+	width: 100%;
+	height: 40px;
+	background: rgba(0,0,0,.7);
+	text-align: center;
+	line-height: 40px;
+	position: absolute;
+	color: white;
+	bottom: 0;
+}
+/*右边区*/
+/*一区：客户评价*/
+.right-wy{
+	width: 850px;
+/*	padding: 20px;*/
+	border: 1px solid #D7D7D7;
+	margin-bottom: 50px;
+}
+.right-wy ul li{
+	display: none;
+}
+.right-wy ul .wy-block{
+	display: block;
+}
+.right-wy .wy-nr{
+	width: 818px;
+	height: 272px;
+	margin: 20px auto 0;
+	border-bottom: 1px dashed #D7D7D7;
+	margin-bottom: 20px;
+}
+.right-wy .wy-nr .img{
+	width: 280px;
+	height: 250px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+}
+.right-wy .wy-nr .img img{
+	display:block;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+.right-wy .wy-nr .text{
+	width: 522px;
+	height: 252px;
+	float: left;
+	padding: 25px;
+	font-size: 15px;
+	position: relative;
+}
+.right-wy .wy-nr .text h6{
+	font-size: 20px;
+	color: #007AFF;
+}
+.right-wy .wy-nr .text a:hover span{
+	color: #D1B772;
+}
+.right-wy .wy-nr .text span{
+	padding-top: 20px;
+	display: inline-block;
+}
+.text .nr-bottom{
+	position: absolute;
+	bottom: 0;
+}
+.text .nr-bottom p{
+	float: left;
+}
+.text .nr-bottom p:nth-child(2){
+	padding: 0 20px;
+}
+/*分页*/
+.site-Pag{
+	width: 100%;
+	height: auto;
+	margin:30px auto 30px;
+}
+.site-Pag ul{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.site-Pag ul li{
+	border: 1px solid #E2E2E2;
+	font-size: 14px;
+	padding: 10px 15px;
+	margin: 0 10px;
+	cursor: pointer;
+	display: block!important;
+}
+.site-Pag ul li:hover{
+	color: white;
+	background: #007AFF;
+}
+.site-Pag .color{
+	color: white;
+	background: #007AFF;
+}
+/*二区:服务流程*/
+.right-wy li:nth-child(2) .img1{
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+.wu-l-t{
+	width: 776px;
+	height: 578px;
+	margin: 50px auto 30px;
+	text-align: center;
+}
+.wu-l-t h6{
+	font-size: 25px;
+	color: #017BFF;
+	padding-bottom: 20px;
+}
+ .wu-l-t ul{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+ .wu-l-t ul li{
+	width: 240px;
+	height: 225px;
+	overflow: hidden;
+	position: relative;
+	font-size: 12px;
+	margin-top: 30px;
+	display: block!important;
+}
+ .wu-l-t ul li img{
+	display:block;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+ .wu-l-t ul li span{
+	display: block;
+	width: 100%;
+	height: 40px;
+	background: rgba(0,0,0,.7);
+	padding: 5px 0;
+	text-align: center;
+	line-height: 18px;
+	position: absolute;
+	color: white;
+	bottom: 0;
+}
+/*第四隐藏区：客户评价详情*/
+.pjxq h6{
+	font-size: 28px;
+	text-align: center;
+	color: #007AFF;
+	padding: 30px;
+	border-bottom: 1px solid #F2F2F2;
+	margin-bottom: 30px;
+}
+.pjxq p{
+	margin:0 45px;
+	padding: 5px;
+	text-indent: 40px;
+}
+.pjxq .wyggx{
+	display: block;
+	margin: 30px auto;
+}
+.pjxq ul{
+	display: flex;
+	justify-content: space-around;
+}
+
+.pjxq ul li{
+	width: 240px;
+	height: 240px;
+	display: block!important;
+	margin: 30px 0;
+	overflow: hidden;
+	position: relative;
+}
+.pjxq ul li img{
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

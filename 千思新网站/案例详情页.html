@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>千思装饰案例详情</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/Cases.css" />
+
+	<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+
+</head>
+
+<body>
+	<!--头部-->
+	<div class="herder">
+		<div class="herder-top">
+			<div class="herder-position">
+				<img src="images/位置.png" />&nbsp;
+				<span>您的当前位置</span>&nbsp;
+				<sapn class="stxz">长沙</sapn>
+				<img src="images/倒三角_03.png" style="width: 9px;height: 10px;margin-top: -2px;" />
+			</div>
+			<div class="city_select">
+				<div class="city_select1">根据您当前的位置，推荐您去
+					<font class="zhan"><a href="http://www.qszs.com" class="fzdh2">长沙站</a></font>
+				</div>
+				<b class="fzdh5" style="display:none;">长沙</b>
+				<div class="city_select2">
+					<ul class="clearaft">
+						<li><a href="http://www.qszs.com/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">长沙</a></li>
+						<li><a href="http://zz.qszs.com/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">株洲</a></li>
+						<li><a href="http://cz.qszs.com/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">郴州</a></li>
+						<li><a href="http://yz.qszs.com/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">永州</a></li>
+						<li><a href="http://cd.qszs.com/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">常德</a></li>
+						<li><a href="http://hh.qszs.com/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">怀化</a></li>
+						<li><a href="http://sy.qszs.com/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">邵阳</a></li>
+						<li><a href="http://hy.qszs.com/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">衡阳</a></li>
+						<li><a href="http://yy.qszs.com/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">岳阳</a></li>
+						<li><a href="http://wh.qszs.com/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">武汉</a></li>
+					</ul>
+				</div>
+			</div>
+			<script type="text/javascript">
+				$(".herder-position").click(function() {
+					$(".city_select").toggleClass("xianshi");
+				})
+			</script>
+			<div class="herder-tel">
+				<img src="images/电话.png" />&nbsp;
+				<span>24小时服务热线:</span>&nbsp;
+				<sapn>400--857--0857</sapn>
+			</div>
+		</div>
+
+		<div class="herder-content">
+			<div style="display: flex;justify-content: space-between;margin-bottom: 20px;">
+				<a href="http://www.qszs.com/"><img src="images/logo_03.png" style="padding: 10px;"/></a>
+				<div class="search" style="margin-top: 10px;">
+					<div class="search-for">
+						<img src="images/搜索.png" />
+						<input type="text" name="" id="" value="" placeholder="案例、样式、产品、楼盘、装修知识等" />
+						<div class="search-an">
+							搜索
+						</div>
+					</div>
+					<p>大家都在搜：案例 家具 装修 透明整装</p>
+				</div>
+			</div>
+			<div id="course-tab" style="z-index: 300;">
+				<ul class="menu">
+					<li><a href="index.html">首页</a></li>
+					<li><a href="">品牌实力</a></li>
+					<li class="active"><a href="">透明整装套餐</a>
+						<ul class="submenu">
+							<li><a href="#">Submenu a</a></li>
+							<li><a href="#">Submenu b</a></li>
+							<li><a href="#">Submenu c</a></li>
+							<li><a href="#">Submenu d</a></li>
+							<li><a href="#">Submenu e</a></li>
+							<li><a href="#">Submenu f</a></li>
+							<li><a href="#">Submenu g</a></li>
+							<li><a href="#">Submenu h</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">优惠活动</a>
+						<ul class="submenu">
+							<li><a href="#">bmena</a></li>
+							<li><a href="#">bmenb</a></li>
+							<li><a href="#">bmec</a></li>
+							<li><a href="#">bmed</a></li>
+							<li><a href="#">bmee</a></li>
+							<li><a href="#">bmef</a></li>
+							<li><a href="#">bmeg</a></li>
+							<li><a href="#">bmeh</a></li>
+						</ul>
+					</li>
+					<li><a href="">精品案例</a></li>
+					<li><a href="">工程质量</a></li>
+					<li><a href="">设计团队</a></li>
+					<li><a href="">装修指南</a></li>
+					<li><a href="">无忧保障</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(function() {
+			var a = $('#course-tab'),
+				b = a.offset();
+			$(document).on('scroll', function() {
+				var c = $(document).scrollTop();
+				if (b.top <= c) {
+					a.css({
+						'position': 'fixed',
+						'top': '0px',
+						'box-shadow': '0px 1px 3px 0px #6A6A6A'
+					})
+				} else {
+					a.css({
+						'position': 'absolute',
+						'top': '175px',
+						'box-shadow': 'none'
+					})
+				}
+			})
+		});
+	</script>
+
+	<!--位置导航链-->
+	<div class="al-navigation">
+		<span>当前位置：</span><a href="index.html">首页></a><a href="">北辰中央公园-现代风格-120㎡</a>
+	</div>
+	<!--内容区-->
+	<div class="al-content">
+		<!--案例详情-->
+
+		<div class="al-Cases">
+			<h6>北辰中央公园-现代风格-120㎡</h6>
+			<div class="Cases-xl" style="width: 593px;float: left;height: 24px;line-height: 24px;">
+				<span>来源：长沙千思装饰总部</span> &nbsp;&nbsp;<span>浏览人数：888次</span> &nbsp;&nbsp;<span>更新时间：2018-4-19</span><span style="padding:0;padding-left: 75px;">分享到：</span>
+			</div>
+			<div class="bdsharebuttonbox" style="width: 220px;float:left;margin-bottom: 20px;">
+				<a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+				<a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+				<a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+				<span class="addFavorite" onclick="javascript:addFavorite()">收藏</span>
+			</div>
+			<script>
+			 function addFavorite() {
+			        var url = window.location;
+			        var title = document.title;
+			        var ua = navigator.userAgent.toLowerCase();
+			        if (ua.indexOf("msie 8") > -1) {
+			            external.AddToFavoritesBar(url, title, '');//IE8
+			        } else {
+			            try {
+			                window.external.addFavorite(url, title);
+			            } catch (e) {
+			                try {
+			                    window.sidebar.addPanel(title, url, "");//firefox
+			                } catch (e) {
+			                    alert("加入收藏失败，请使用Ctrl+D进行添加");
+			                }
+			            }
+			        }
+			    }
+			 </script>
+			<script>
+				window._bd_share_config = {
+					"common": {
+						"bdSnsKey": {},
+						"bdText": "",
+						"bdMini": "2",
+						"bdMiniList": false,
+						"bdPic": "",
+						"bdStyle": "0",
+						"bdSize": "24"
+					},
+					"share": {}
+				};
+				with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
+			</script>
+
+
+
+			<ul class="table">
+				<li>
+					<div class="left">案例风格</div>
+					<div>现代风格</div>
+					<div class="left">所在城市</div>
+					<div>长沙</div>
+				</li>
+				<li>
+					<div class="left">案例面积</div>
+					<div>三居室</div>
+					<div class="left">案例造价</div>
+					<div>11.98万</div>
+				</li>
+				<li>
+					<div class="left">房屋面积</div>
+					<div>120㎡</div>
+					<div class="left">设计师</div>
+					<div>***</div>
+				</li>
+				<li>
+					<div class="left">目标楼盘</div>
+					<div class="scroll">北辰中央公园北辰中央公园北辰中央公园北辰中央公园</div>
+					<div class="left">项目经理ta</div>
+					<div>***</div>
+				</li>
+			</ul>
+			<div class="Cases-xq">
+				<b>案例详情</b>
+				<p>
+					这个案例给人感觉是简单又工整。大量运用了木质材质，原木和实木的家具让家看起来自然舒适灰色与原木色是主 角。规规矩矩的装修风格，几乎挑不出一处错误工作台放在了阳台，弥补了卧室空间较小的缺陷整间房做成了榻榻米也极大的 增加了收纳的功能。
+				</p>
+				<img src="images/images/alxq-7.jpg" alt="户型图1" />
+				<img src="images/images/alxq-1.jpg" alt="户型图2" />
+				<img src="images/images/alxq-2.jpg" alt="餐桌" />
+				<img src="images/images/alxq-3.jpg" alt="客厅" />
+				<img src="images/images/alxq-4.jpg" alt="厨房" />
+				<img src="images/images/alxq-5.jpg" alt="卧室" />
+				<video width="790" height="100%" controls>
+					  <source src="http://www.w3school.com.cn/i/movie.ogg"  type="video/ogg">
+					  您的浏览器不支持video视频。
+					</video>
+				<div class="Cases-xq-page">
+					<div class="return">
+						<img src="images/images/page_03.png" />
+						<a href="#">上一个案例：北辰中央公园-简约风格-150㎡</a>
+					</div>
+					<div class="next">
+						<img src="images/images/page_05.png" />
+						<a href="">下一个案例：北辰中央公园-简约风格-150㎡</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--案例设计师简历-->
+		<div class="al-resume">
+			<div class="resume-1">
+				<h6>本案设计师简历</h6>
+				<div class="img"></div>
+				<p>姓名：<span>***</span></p>
+				<p>级别：<span>高级设计师</span></p>
+				<p>部门：<span>千思装饰长沙总部</span></p>
+				<p>电话：<span>400-857-0857</span></p>
+				<a href="#">查看ta其它案例</a>
+			</div>
+			<div class="resume-2">
+				<div class="al-form">
+					<h6>免费获取家装报价</h6>
+					<p>智能报价 快速获取</p>
+					<form action="" id="myformresume" name="mobileformresume" onsubmit="return checkMobileresume();" method="post">
+						<input type="number" name="mj" id="" value="" placeholder="请输入您的房屋面积㎡" />
+						<select name="风格">
+								<option value="">请选择您喜欢的风格</option>
+								<option value="">日式</option>
+								<option value="">美式</option>
+								<option value="">欧式</option>
+								<option value="">中式</option>
+								<option value="">地中海</option>
+							</select>
+						<input type="text" name="ch" id="ch" value="" placeholder="请输入您的昵称" />
+						<input type="tel" name="dh" id="dh" value="" placeholder="接受报价信息的电话号码" maxlength="11" />
+						<input class="submit" type="submit" value="免费报价" />
+						<p>免费电话申请：<span style="color: #1E88FF;">400-857-0857</span></p>
+					</form>
+				</div>
+				<div class="lunbo">
+					<h6>已申请成功客户</h6>
+					<div class="lunbo-hid">
+						<ul class="ul-de">
+							<li>*先生 &nbsp;&nbsp;139****3455 &nbsp;&nbsp;已成功免费报价</li>
+							<li>*先生 &nbsp;&nbsp;139****3455 &nbsp;&nbsp;已成功免费报价</li>
+							<li>*先生 &nbsp;&nbsp;139****3455 &nbsp;&nbsp;已成功免费报价</li>
+							<li>*先生 &nbsp;&nbsp;139****3455 &nbsp;&nbsp;已成功免费报价</li>
+							<li>*先生 &nbsp;&nbsp;139****3455 &nbsp;&nbsp;已成功免费报价</li>
+							<li>*先生 &nbsp;&nbsp;139****3455 &nbsp;&nbsp;已成功免费报价</li>
+							<li>*先生 &nbsp;&nbsp;139****3455 &nbsp;&nbsp;已成功免费报价</li>
+							<li>*先生 &nbsp;&nbsp;139****3455 &nbsp;&nbsp;已成功免费报价</li>
+							<li>*先生 &nbsp;&nbsp;139****3455 &nbsp;&nbsp;已成功免费报价</li>
+							<li>*先生 &nbsp;&nbsp;139****3455 &nbsp;&nbsp;已成功免费报价</li>
+							<li>*先生 &nbsp;&nbsp;139****3455 &nbsp;&nbsp;已成功免费报价</li>
+							<li>*先生 &nbsp;&nbsp;139****3455 &nbsp;&nbsp;已成功免费报价</li>
+							<li>*先生 &nbsp;&nbsp;139****3455 &nbsp;&nbsp;已成功免费报价</li>
+							<li>*先生 &nbsp;&nbsp;139****3455 &nbsp;&nbsp;已成功免费报价</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<script type="text/javascript">
+				document.getElementById('myformresume').reset();
+
+				function checkMobileresume() {
+					var sMobile = document.mobileformresume.dh.value.replace(/\s+/g, "");
+					var name = document.mobileformresume.ch.value.replace(/\s+/g, "");
+					var Areas = document.mobileformresume.mj.value.replace(/\s+/g, "");
+					if (Areas < 10 || isNaN(Areas)) {
+						alert('请输入正确房屋面积');
+						document.mobileformresume.mj.focus();
+						return false;
+					}
+					if (String(name) == "") {
+						alert("请输入姓名");
+						document.mobileformresume.ch.focus();
+						return false;
+					} else if ((!/^[\u4E00-\u9FA5A-Za-z]+$/.test(name))) {
+						alert("请输入正确的昵称");
+						document.mobileformresume.ch.focus();
+						return false;
+					} else if (!(/^1[34578]\d{9}$/.test(sMobile))) {
+						alert("请输入正确的手机号码");
+						document.mobileformresume.dh.focus();
+						return false;
+					}
+				}
+				var roll = document.querySelector('.ul-de');
+				var carousel = document.querySelector('.lunbo-hid');
+
+				function moveUp() {
+					var disTop = roll.offsetHeight - carousel.offsetHeight;
+					var s = 1;
+					roll.style.top = roll.offsetTop - s + 'px';
+					if (roll.offsetTop < -disTop) {
+						roll.style.top = 0 + 'px';
+					}
+				}
+				var yanshi2 = setInterval(moveUp, 100);
+				carousel.onmouseover = function() {
+					clearInterval(yanshi2);
+				}
+				carousel.onmouseout = function() {
+					yanshi2 = setInterval(moveUp, 100);
+				}
+			</script>
+			<div class="resume-3">
+				<b>相似案例推荐</b>
+				<div class="resume-sheji">
+					<div class="one">
+						<img src="images/sheji1.jpg" />
+					</div>
+					<div class="two">
+
+					</div>
+					<div class="three">
+						<p style="padding-top: 20px;">北辰中央公园-现代风格-120㎡</p>
+						<p>三居室|现代|120㎡|长沙总部</p>
+					</div>
+				</div>
+				<div class="resume-sheji">
+					<div class="one">
+						<img src="images/sheji1.jpg" />
+					</div>
+					<div class="two">
+
+					</div>
+					<div class="three">
+						<p style="padding-top: 20px;">北辰中央公园-现代风格-120㎡</p>
+						<p>三居室|现代|120㎡|长沙总部</p>
+					</div>
+				</div>
+				<div class="resume-sheji">
+					<div class="one">
+						<img src="images/sheji1.jpg" />
+					</div>
+					<div class="two">
+
+					</div>
+					<div class="three">
+						<p style="padding-top: 20px;">北辰中央公园-现代风格-120㎡</p>
+						<p>三居室|现代|120㎡|长沙总部</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!--尾部-->
+	<footer>
+		<div class="footer clearaf">
+			<div class="footer_menu1">
+				<b><a href="javascript:void(0)?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">关于我们</a></b>
+
+				<span><a href="/qs/qsjj/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1" rel="nofollow">千思简介</a></span>
+
+				<span><a href="/qs/qswh/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1" rel="nofollow">企业文化</a></span>
+
+				<span><a href="/qs/qsry/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1" rel="nofollow">企业荣誉</a></span>
+
+				<span><a href="/qs/qsgy/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1" rel="nofollow">千思公益</a></span>
+
+			</div>
+			<div class="footer_menu1">
+				<b><a href="/tmjz/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">透明家装</a></b>
+				<span><a href="/tmjz/#tmfw?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">透明服务</a></span>
+				<span><a href="/tmjz/#zzqd?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">整装清单</a></span>
+				<span><a href="/tmjz/#tmcl?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">透明承诺</a></span>
+			</div>
+			<div class="footer_menu1">
+				<b><a href="javascript:void(0)?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">装修帮助</a></b>
+
+				<span><a href="/help/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">家装问答</a></span>
+
+				<span><a href="/zsfw/?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1">装饰服务</a></span>
+			</div>
+			<div class="footer_menu2">
+				客服专线<b>400-857-0857 0731-84485151</b>
+				<span>服务时间：周一至周日 8:30-22:00</span>
+				<a href="http://dft.zoosnet.net/lr/chatpre.aspx?id=dft71551910&amp;lng=cn?baidu_pc-zhangshaqiansi-zy_qiansi&amp;e_adposition=cl1&amp;r=&amp;rf1=http%3A//www.qszs.com/qbtzs_zty/index&amp;rf2=.html%3Fbaidu_pc-zhangshaqiansi-ZY_qiansi%26e_adposition%3Dcl1&amp;p=http%3A//www.qszs.com/%3Fbaidu_pc-zhangshaqiansi-ZY_qiansi%26e_adposition%3Dcl1&amp;cid=1523526111178723558734&amp;sid=1523839909652242063541"
+				  target="_blank" rel="nofollow"><img src="images/zxkfico_03.jpg" width="111" height="27"></a>
+				<a href="//shang.qq.com/wpa/qunwpa?idkey=51f4490a959d980d8ea4d13e5a58f5578f9db5f8ca9968f44561dc98dc99a559?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1" rel="nofollow" target="_blank"><img src="images/txqqico_03.jpg" width="111" height="27"></a>
+				<a href="javascript:void(0)?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1" onmousemove="wxsqsb()" onmouseout="wxsqout()" rel="nofollow">
+					<img src="images/wxsqico_03.jpg" width="111" height="27">
+						<div class="wxsq" id="wxsq" style="display: none;"><img src="images/wxsqewm.jpg" width="239" height="114"></div>
+					</a>
+			</div>
+			<script>
+				function wxsqsb() {
+					document.getElementById("wxsq").style.display = "block";
+				}
+
+				function wxsqout() {
+					document.getElementById("wxsq").style.display = "none";
+				}
+			</script>
+			<div class="footer_menu3 clearaf">
+				<span>手机版<img src="images/1511678492.png" width="115" height="115"></span>
+				<span>官方微信<img src="images/footer3_03.jpg" width="115" height="115"></span>
+			</div>
+		</div>
+		<div class="config">Copyright © 湖南千思智造家装饰有限责任公司 版权所有
+			<a href="http://www.miitbeian.gov.cn?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1" target="_blank" rel="nofollow" style="color: #939393;">
+		    		湘ICP备12008584号-2
+		    	</a>
+			<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=43010202000681?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;" rel="nofollow">
+		    		<img src="" style="float:left;">
+		    		<p style="margin: 0px 0px 0px 5px; color:#939393;">
+		    			湘公网安备 43010202000681号
+		    		</p>
+		    	</a>
+			<a href="http://www.qszs.com/sitemap.html?baidu_pc-zhangshaqiansi-ZY_qiansi&amp;e_adposition=cl1" style="color: #939393;">
+		    		网站地图
+		    	</a>
+		</div>
+	</footer>
+</body>
+
+</html>
